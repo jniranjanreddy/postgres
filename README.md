@@ -1,7 +1,8 @@
 # postgres
 
 ```
-docker run --name postgres -p 8082:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+psql -h 192.168.9.87 -U airflow-user -d airflow_db
 
 
 docker exec -it postgres bash
