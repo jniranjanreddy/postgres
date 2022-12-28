@@ -25,3 +25,6 @@ pg_dump --host=127.0.0.1 -U <Postgre_user> -W -F t Postgre_DB > Backup-filename.
 
 ## How to restore postges database.
 pg_restore -U <Postgre_user> -W --host=127.0.0.1 --dbname=<Postgre_DB> --verbose Backup-filename.tar
+
+## How to alter password
+ALTER USER USERNAME WITH PASSWORD 'PASSWORD';
