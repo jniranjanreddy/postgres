@@ -4,6 +4,8 @@
 docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 psql -h 192.168.9.87 -U airflow-user -d airflow_db
 
+## How to install only postgres clien (psql)
+apt-get install -y postgresql-client
 
 docker exec -it postgres bash
 
