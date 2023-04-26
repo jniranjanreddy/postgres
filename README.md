@@ -69,3 +69,8 @@ To connect to your database from outside the cluster execute the following comma
 root@minikube01 ~ #
 
 ```
+## how to create user and DB.
+```
+CREATE USER "user1" WITH PASSWORD 'user_password';
+CREATE DATABASE my-db WITH OWNER "user1";
+```
