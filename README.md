@@ -73,4 +73,9 @@ root@minikube01 ~ #
 ```
 CREATE USER "user1" WITH PASSWORD 'user_password';
 CREATE DATABASE my-db WITH OWNER "user1";
+
+
+CREATE DATABASE yourdbname;
+CREATE USER youruser WITH ENCRYPTED PASSWORD 'yourpass';
+GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
 ```
