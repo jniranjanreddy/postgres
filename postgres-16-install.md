@@ -28,4 +28,8 @@ sudo -u postgres psql
 
 ALTER USER postgres PASSWORD 'VeryStronGPassWord@1137';
 
+CREATE DATABASE airflowdb;
+CREATE USER airflowuser WITH ENCRYPTED PASSWORD 'VeryStronGPassWord@1137';
+GRANT ALL PRIVILEGES ON DATABASE airflowdb TO airflowuser;
+
 ```
