@@ -1,6 +1,15 @@
 # postgres
 
 ```
+docker volume create postgres_data
+
+docker run --name postgres_container \
+    -e POSTGRES_PASSWORD=mysecretpassword \
+    -d -p 5432:5432 \
+    -v postgres_data:/var/lib/postgresql/data \
+    postgres
+
+
 docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 psql -h 192.168.9.87 -U airflow-user -d airflow_db
 
