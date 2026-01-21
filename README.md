@@ -2,7 +2,9 @@
 ## https://www.mockaroo.com/
 # Source - https://www.youtube.com/watch?v=qw--VYLpxG4&list=PLxtrcgLvnR2Yjj4mIbL1aspC_XzVNvP_6
 ## DB Mate is used for DB migrations.. 
+## https://www.youtube.com/watch?v=85pG_pDkITY&t=6s
 ```
+## 
 docker volume create postgres_data
 
 docker run --name postgres_container \
