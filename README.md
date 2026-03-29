@@ -3,6 +3,7 @@
 # Source - https://www.youtube.com/watch?v=qw--VYLpxG4&list=PLxtrcgLvnR2Yjj4mIbL1aspC_XzVNvP_6
 ## DB Mate is used for DB migrations.. 
 ## https://www.youtube.com/watch?v=85pG_pDkITY&t=6s
+## Big tutorial - https://www.youtube.com/watch?v=BBPBpaJ26ss&list=PLdTaEgcmPg9Kl539gyIFtWL0-cqk3m7v9&index=1
 ```
 ## 
 docker volume create postgres_data
