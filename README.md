@@ -1,4 +1,5 @@
 # postgres
+## https://www.youtube.com/watch?v=j4DORR3lOqI&list=PLf0swTFhTI8oQNiY2ZTf81zvKB7-y3y4e
 ## https://www.mockaroo.com/
 # Source - https://www.youtube.com/watch?v=qw--VYLpxG4&list=PLxtrcgLvnR2Yjj4mIbL1aspC_XzVNvP_6
 ## DB Mate is used for DB migrations.. 
