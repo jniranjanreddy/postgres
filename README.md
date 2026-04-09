@@ -7,6 +7,12 @@
 ## Big tutorial - https://www.youtube.com/watch?v=BBPBpaJ26ss&list=PLdTaEgcmPg9Kl539gyIFtWL0-cqk3m7v9&index=1
 ## Joins - https://www.youtube.com/watch?v=9prkapPewGs - https://www.youtube.com/watch?v=aY7z4HcHm5M
 ```
+DML - Data Manupulationg Language
+
+
+
+
+
 ## 
 docker volume create postgres_data
 
@@ -95,3 +101,8 @@ CREATE DATABASE yourdbname;
 CREATE USER youruser WITH ENCRYPTED PASSWORD 'yourpass';
 GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
 ```
+<img width="674" height="305" alt="image" src="https://github.com/user-attachments/assets/d4ad4ade-2c1a-4a50-acf8-e808815498c6" />
+
+<img width="700" height="193" alt="image" src="https://github.com/user-attachments/assets/3b54723c-61dd-4046-9c84-bfb35bbdc562" />
+
+
