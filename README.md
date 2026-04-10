@@ -106,3 +106,7 @@ GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
 <img width="700" height="193" alt="image" src="https://github.com/user-attachments/assets/3b54723c-61dd-4046-9c84-bfb35bbdc562" />
 
 
+## OLAP vd OLTP
+<img width="825" height="947" alt="image" src="https://github.com/user-attachments/assets/c8c47d0b-f4aa-4cb7-82ae-63cd0e69719d" />
+
+
