@@ -110,3 +110,8 @@ GRANT ALL PRIVILEGES ON DATABASE yourdbname TO youruser;
 <img width="825" height="947" alt="image" src="https://github.com/user-attachments/assets/c8c47d0b-f4aa-4cb7-82ae-63cd0e69719d" />
 
 
+```
+CREATE EXTENSION IF NOT EXISTS btree_gin;
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+```
